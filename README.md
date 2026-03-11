@@ -9,7 +9,7 @@ An Android application that lets you control a smart curtain system wirelessly u
 - **Splash Screen** – Branded launch screen that transitions automatically to the main controller.
 - **Connection Setup** – Choose between Wi-Fi or Bluetooth to connect your phone to the Smart Curtain device.
   - **Wi-Fi** – Opens Android Wi-Fi settings so you can connect to the ESP32's hotspot, then returns you to the app.
-  - **Bluetooth** – Guides you through pairing with the Smart Curtain BLE device *(in progress)*.
+  - **Bluetooth** – Guides you through pairing with the Smart Curtain BLE device *(not implemented)*.
 - **Curtain Control** – Hold the **Open** or **Close** buttons to continuously drive the curtain motor in the desired direction.
 - **Mode Switching** – Toggle between **Manual** and **Auto** operation modes with the **Switch** button.
 - **Real-Time Sensor Readings** – The app polls the ESP32 every second to display:
@@ -27,7 +27,7 @@ An Android application that lets you control a smart curtain system wirelessly u
 | **Launch Screen** | Splash screen shown for 1.5 seconds on startup |
 | **Home** | Landing page with a "Connect Curtain" button that opens the connection popup |
 | **Connect Wi-Fi** | Step-by-step guide to join the ESP32's Wi-Fi access point |
-| **Connect Bluetooth** | Step-by-step guide to pair with the ESP32 over Bluetooth |
+| **Connect Bluetooth** | Step-by-step guide to pair with the ESP32 over Bluetooth *(not implemented)* |
 | **Controller** | Main dashboard — sensor readings, connection status, mode, and curtain controls |
 
 ---
